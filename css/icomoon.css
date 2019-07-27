@@ -117,10 +117,16 @@
 .icon-book:before {
   content: "\e030";
 }
+.icon-linegraph:before {
+  content: "\e030";
+}
 .icon-layers:before {
   content: "\e031";
 }
 .icon-stack:before {
+  content: "\e032";
+}
+.icon-presentation:before {
   content: "\e032";
 }
 .icon-stack-2:before {

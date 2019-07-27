@@ -227,9 +227,9 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -243,6 +243,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li.active > a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 550;
   position: relative;
 }
 .scrolled .fh5co-nav {
@@ -293,7 +295,15 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white;
   border-bottom: 1px solid white;
 }
-
+.fh5co-cover1 {
+	background-color: #C0A16B;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  width: 100%;
+}
 .fh5co-cover {
   height: 900px;
   background-size: cover;
@@ -705,9 +715,9 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: -2px 11px 24px -10px rgba(0, 0, 0, 0.09);
   position: relative;
   bottom: 0;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 #fh5co-blog .fh5co-post h3 {
   margin-bottom: 20px;
@@ -844,9 +854,9 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 /*******************/
 #fh5co-project .fh5co-project > a .fh5co-copy h3 {
@@ -939,9 +949,9 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   bottom: 0;
   margin-bottom: 40px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 @media screen and (max-width: 768px) {
   .feature-center {
@@ -1021,9 +1031,9 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.0.6s;
+  -o-transition: 0.0.6s;
+  transition: 0.0.6s;
 }
 .project-grid .desc {
   background: rgba(247, 56, 89, 0.9);
@@ -1032,9 +1042,9 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: -93px;
   left: 0;
   right: 0;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.0.6s;
+  -o-transition: 0.0.6s;
+  transition: 0.0.6s;
 }
 .project-grid .desc h3 a {
   color: white;
@@ -1096,9 +1106,9 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.0.6s;
+  -o-transition: 0.0.6s;
+  transition: 0.0.6s;
 }
 .project-content .col-half .project:hover:before, .project-content .col-half .project:focus:before, .project-content .col-half .project-grid:hover:before, .project-content .col-half .project-grid:focus:before {
   opacity: 1;
@@ -1129,9 +1139,9 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: -93px;
   left: 0;
   right: 0;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.0.6s;
+  -o-transition: 0.0.6s;
+  transition: 0.0.6s;
 }
 .project-content .desc h3 {
   color: white;
@@ -1630,9 +1640,9 @@ h1, h2, h3, h4, h5, h6, figure {
   background: none;
   border: 2px solid gray;
   font-size: 16px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
   box-shadow: none;
@@ -1640,9 +1650,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .btn.with-arrow {
   position: relative;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 .btn.with-arrow i {
   visibility: hidden;
@@ -1684,7 +1694,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 2em !important;
 }
 
 .row-pb-sm {
@@ -1717,3 +1727,256 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+.container3{
+	line-height: 1.6;
+	position:relative;
+	min-height:1px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.container3 p {
+	margin-bottom:20px;
+	width: 79%;
+	float: right;
+	
+}
+.container3 div{
+	display:block;
+	margin-bottom: 20px;
+}
+.feature-left{
+	float: left;
+	width: 100%;
+}
+.feature-left .icon i
+{
+	display:table-cell;
+	vertical-align:middle;
+	font-size:40px;
+	color: #B3B3B3;
+	width: 20%;
+	float: left;
+	}
+
+/*********autions-jieshao************/
+.autions-jieshao{
+	width: 100%;
+	text-align: center;
+}
+.autions-box{
+	width: 100%;
+	background-color: #333;
+}
+
+.before-box1{
+	width: 33.33333%;
+	display: block;
+	float: left;
+}
+@media screen and (max-width: 768px) {
+ .before-box1 {
+    width: 48%;
+    margin-top: -45px;
+  }
+}
+.before-box2{
+	width: 33.33333%;
+	display: block;
+	float: left;
+}
+@media screen and (max-width: 768px) {
+ .before-box2 {
+    width: 48%;
+    float: right;
+    margin-top: -45px;
+  }
+}
+.autions-box span {
+	display: block;
+	width: 155px;
+	height: 155px;
+	border-radius: 155px;
+	background-color: #3e4766;
+	font-weight: 500;
+	text-align: center;
+	margin: 0 auto;
+	color: #FFFFFF;
+	padding: 55px 0 0 0;
+	font-size: 28px;
+}
+.autions-box h5{
+	font-size: 30px;
+	font-weight: 200;
+	margin-top: 8%;
+}
+.autions-box a{
+	display: block;
+	height: 2em;
+	font-size: 23px;
+	font-weight: 200;
+}
+.before-bottomg{
+	border-bottom: 1px solid #000000;
+	height: 2%;
+}
+@media screen and (max-width: 768px) {
+  .autions-box h5 {
+    font-size: 20px;
+  }
+}
+.autions-box i{
+	border-bottom:20px solid transparent;
+	border-top:20px solid #3e4766;
+	border-right:20px solid transparent;
+	border-left:20px solid transparent;
+	text-align: center;
+	display: block;
+	width: 41px;
+	margin-top: -3px;
+	margin-left: 45%;
+}
+@media screen and (max-width: 768px) {
+  .autions-box i {
+    margin-left: 39%;
+  }
+}
+
+.fh6hh{
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.before-box3{
+	width: 33.33333%;
+	text-align: center;
+	float: left;
+	display: block;
+	margin-top: -17em;
+	background-image: url(../images/beforebox3.jpg);
+	height: auto;
+}
+.before-box3 h{
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 550;
+}
+.before-box3 p{
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 90%;
+	z-index: 99;
+}
+@media screen and (max-width: 768px) {
+ .before-box3{
+    margin-top: 0em;
+    margin-left: -15px;
+    width: 110%;
+  }
+}
+@media screen and (max-width: 768px) {
+ .before-box3 h{
+ 	text-align: center;
+ 	display: block;
+ 	font-size: 30px;
+ 	color: #FFFFFF;
+  }
+}
+
+.befor-ggg{
+	margin-top: 110px;
+}
+@media screen and (max-width: 768px) {
+ .before-box3{
+	background-image: url(../images/beforebox4.jpg);
+  }
+}
+@media screen and (max-width: 768px) {
+ .befor-ggg{
+	margin-top: 20px;
+  }
+}
+.befor-xxx{
+	height: 420px;
+}
+@media screen and (max-width: 768px) {
+ .befor-xxx{
+	height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+ #fh5co-project{
+	padding: 18px 0 0 0;
+  }
+}
+/*********************/
+#compare{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+.compare-box{
+	background-image: url(../images/compare-box-img.jpg);
+	background-repeat: no-repeat;
+	width: 28.5%;
+	margin: 0 43px 0 0;
+	height: auto;
+	background-color: #FFFFFF;
+	float: left;
+}
+.compare-box h1{
+	display: block;
+	color: #FFFFFF;
+	margin-top: 60px;
+}
+.compare-box span{
+	margin: 100px 0 0 74px;
+	background-color: #333;
+	display: block;
+	color: #FFFFFF;
+	width: 60%;
+}
+.compare-box a{
+	margin: 0 auto;
+	display: block;
+	color: #333;
+	width: 94%;
+}
+.compare-wen{
+	width: auto;
+	height: auto;
+}
+.feature-center1:hover{
+ -webkit-box-shadow: #ccc 0px 10px 10px;
+  -moz-box-shadow: #ccc 0px 10px 10px;
+   box-shadow: #ccc 0px 10px 10px; 
+	}
+@media screen and (max-width: 768px) {
+ #compare{
+	width: 100%;
+	text-align: center;
+	margin-top: -50px;
+	font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+ .compare-box{
+	width: 100%;
+	text-align: center;
+	margin: 0 0 0 0;
+  }
+.assa{
+	height: 150px;
+	width: 150px;
+	background-color: #000000;
+	display: block;
+	}
+	@media screen and (max-width: 768px) {
+ .assa{
+	height: 10px;
+	width: 10px;
+	background-color: #FFFFFF;
+	display: block;
+  }
