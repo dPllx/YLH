@@ -70,13 +70,19 @@
 	width: 600px;
 	float: right;
 }
+.recommend_desc_right-amc img{
+	width: 600px;
+}
 .abn_youshi{width:100%;padding: 36px 0 100px;}
 .youshi_desc{margin-bottom: 40px;}
+.youshi_desc-amc{margin-bottom: 40px; width: 50%;}
 .youshi_desc-01{margin-bottom: 1px;}
 .youshi_desc_left{width:600px;float: left;}
 .youshi_desc_right{width:520px;float: left;margin-left: 36px;}
 .youshi_desc_right p{line-height: 30px;word-wrap: break-word;margin-bottom: 50px;}
 .youshi_desc_right p span{display: inline-block;padding: 8px 18px;background: #db9946;font-size:20px;color:#FBFBFD;border-radius: 16px;line-height: 20px;margin-right: 16px;}
+
+
 .p{width:100%;}
 .p p{line-height: 30px;word-wrap: break-word;margin-bottom:40px;}
 
@@ -111,6 +117,22 @@
 .about_h3_amc{
 	margin-bottom: 20px;
 }
+.about_amcbiaoti{
+	text-align: center;
+	 width: 50%; 
+	 margin: 0 auto;
+	 margin-bottom: 25px;
+}
+.about_amcbiaoti-01{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	 width: 48.55555%; 
+	 /* margin: 0 auto; */
+	 margin-bottom: 15px;
+	margin-top: 5%;
+	float: left;
+}
 
 .team-ul {
 	width: 100%;
@@ -119,7 +141,7 @@
 }
 .team-ul li{
 	float: left;
-	width: 23%;
+	width: 48.555%;
 	height: 50px;
 	text-align: center;
 	margin-top: 1%;
@@ -139,6 +161,95 @@
 	transform: translate(0,0);
 	transition:all .1s ease-in 0s;
 }
+
+
+
+
+
+.team-ul-00 {
+	width: 50%;
+	margin: 0 auto;
+	line-height: 40px;
+	float: left;
+}
+.team-ul-00 h3{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.team-ul-00 li{
+	width: 96%;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 1.5%;
+	background-color: #db9946;
+	border-radius: 15px;
+}
+.team-ul-00 li a{
+	display: block;
+	color: #FBFBFD;
+	border-radius: 10px;
+}
+.team-ul-00 li a:hover{
+	font-size: 17px;
+	font-weight: bold;
+	background-color: #FBFBFD;
+	color: #db9946;
+	border: 1px solid #db9946;
+	margin: -3px -3px;
+	border-radius: 13px;
+	transform: translate(0,0);
+	transition:all .1s ease-in 0s;
+}
+
+.team-ul-0 {
+	width: 50%;
+	margin: 0 auto;
+	line-height: 40px;
+	float: left;
+}
+.team-ul-0 h3{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.team-ul-0 li{
+	width: 96%;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 1.5%;
+	border: 1px solid #db9946;
+	border-radius: 15px;
+}
+.team-ul-0 li a{
+	display: block;
+	border-radius: 10px;
+}
+.team-ul-0 li a:hover{
+	background-color: #db9946;
+	color: #FBFBFD;
+	margin: -3px -3px;
+	border-radius: 13px;
+	transform: translate(0,0);
+	transition:all .1s ease-in 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,3 +312,4 @@
 	width: 32%;
 
 }
+

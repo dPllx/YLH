@@ -1,3 +1,8 @@
+
+.amc-banner-01 img{
+	margin: 0 auto;
+}
+
 .bg_box_banner,
 .swiper-containerAll,
 .swiper-containerAll .swiper-wrapper,
@@ -653,6 +658,7 @@
 .footer {
 	width: 100%;
 	background: #fbfbfb;
+	bottom: 0;
 }
 
 .footer_nav {
@@ -946,6 +952,10 @@
 	border-radius: 16px;
 }
 /*-------------*/
+
+
+
+
 /*----------------*/
 .nav21-amc-02 {
 	position: relative;
@@ -981,6 +991,49 @@
 	border-radius: 16px;
 }
 /*-------------*/
+.nav21-amc-03 {
+	position: relative;
+	font-size: 18px;
+	padding: 3px 0 16px 0;
+	/* border-bottom: 1px solid #e1e1e1; */
+	/* margin-top: -10px; */
+}
+
+.nav21-amc-03 li {
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin: 0 12px;
+}
+
+.nav21-amc-03 li:first-child {
+	margin-left: 0;
+}
+
+.nav21-amc-03 h3 a {
+	display: block;
+	padding: 0 11px;
+	text-align: center;
+	font-size: 18px;
+	color: #1D1D1F;
+	height: 34px;
+	line-height: 34px;
+}
+
+.nav21-amc-03 h3 a:hover,
+.nav21-amc-03 li.on a {
+	color: #db9946;
+	/* background: #db9946; */
+	/* border-radius: 16px; */
+}
+/*-------------*/
+
+
+
+
+
+
+
 .top_nav {
 	width: 100%;
 	top: 70px;
@@ -1418,6 +1471,13 @@
 }
 .amc-font-div{
 	font-size: 18px;
+}
+#amc-font-logo{
+	font-size: 55px;
+	color: #f68d08;
+}
+#amc-font-logo:hover{
+	color: #e35b17;
 }
 .amc-ul{
 	margin-top: 1%;

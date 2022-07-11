@@ -1,4 +1,4 @@
-/*关于爱博恩*/
+
 
 .area {
 	font-size: 14px;
@@ -362,6 +362,10 @@
 	margin-right: 38px;
 	margin-bottom: 38px;
 }
+.huodong_list-amc-01 li {
+	width: 580px;
+	height: 455px;
+}
 
 .huodong_list li:nth-of-type(2n) {
 	margin-right: 0;
@@ -390,6 +394,22 @@
 	color: #333;
 	text-align: center;
 	margin-top: 40px;
+}
+.hd_info_amc_01 h3 {
+	width: 100%;
+	position: relative;
+	height: 32px;
+	overflow: hidden;
+	padding: 0 18px 0 18px;
+	font-size: 16px;
+	margin-bottom: 0px;
+	color: #333;
+	text-align: center;
+	margin-top: 1px;
+}
+.hd_info_amc_01  p {
+	margin: 0 auto;
+	text-align: center;
 }
 
 .hd_info h3 span {
@@ -1262,13 +1282,13 @@
 .tab-swiper-container2 .swiper-button-next,
 .tab-swiper-container2 .swiper-button-prev {
 	width: 40px;
-	height: 270px;
+	height: 165px;/*-----修改高度---*/
 	font-family: "iconfont";
 	line-height: 270px;
 	font-size: 38px;
 	color: #db9946;
 	background: none;
-	margin-top: -135px;
+	margin-top: -165px;
 	z-index: 99999
 }
 
