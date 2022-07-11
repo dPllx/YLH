@@ -326,6 +326,27 @@
       "font_class": "erweima",
       "unicode": "e7ad",
       "unicode_decimal": 59309
+    },
+    {
+      "icon_id": "30263554",
+      "name": "NICO-LOGO",
+      "font_class": "NICO-LOGO",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "30263724",
+      "name": "visit",
+      "font_class": "visit1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "30264160",
+      "name": "AMC-LOGO",
+      "font_class": "AMC-LOGO1",
+      "unicode": "e642",
+      "unicode_decimal": 58946
     }
   ]
 }
