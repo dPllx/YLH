@@ -344,6 +344,11 @@
 }
 
 /*新闻资讯*/
+.amc-fix li{
+	-web kit-box-shadow: 10px 10px 25px 5px #CCC;
+	-moz-box-shadow: 10px 10px 25px 5px #CCC;
+	box-shadow: 10px 10px 25px 5px #CCC;
+}
 .about_huodong {
 	width: 100%;
 	padding: 0px 0 60px;
