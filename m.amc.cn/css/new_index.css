@@ -575,20 +575,34 @@
 .new_part6 h3 {
 	font-size: 0.6rem;
 	color: #1D1D1F;
-	text-align: center
+	text-align: center;
 }
 
-.new_part6 ul {}
-
-.new_part6 a {
-	color: #726c66
+.bo-am-ul {
+	background-color: #1D1D1F;
+	text-align: center;
+	width: 100%;
+	margin-left: 4% !important;
 }
 
 .new_part6 ul li {
+	width: 45%;
+	height: 45%;
+	float: left;
 	border-bottom: 1px solid #f8ebe0;
 	font-size: 0.38rem;
 	padding: 0.5rem 0.4rem;
 }
+.new_part6 ul li img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
 
 .new_part6_gd {
 	text-align: center;

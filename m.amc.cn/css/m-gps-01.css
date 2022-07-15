@@ -4,6 +4,20 @@
 	margin: 0 auto;
 	padding: 2px 0 0 0;
 }
+.amc-gps-box  ul li img{
+	width: 40%;
+	margin-top: 20px;
+}
+.amc-gps-box
+.rotate-circle
+.compass-img{
+	left: 0;
+}
+.amc-gps-box span{
+	display: block;
+	text-align: center;
+	margin-top: 9px;
+}
 
 .amc-gps-box hr{
 	width: 94%;

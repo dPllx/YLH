@@ -243,6 +243,8 @@
 	text-align: center;
 	line-height: 2;
 	height: 180px;
+	float: left;
+	width: 100%;
 }
 
 .swiper-container {
