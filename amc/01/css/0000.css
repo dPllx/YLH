@@ -343,9 +343,9 @@
 
 /*新闻资讯*/
 .amc-fix li {
-	-web kit-box-shadow: 10px 10px 25px 5px #CCC;
-	-moz-box-shadow: 10px 10px 25px 5px #CCC;
-	box-shadow: 10px 10px 25px 5px #CCC;
+	-web kit-box-shadow: 3px 3px 15px 1px #CCC;
+	-moz-box-shadow: 3px 3px 15px 1px #CCC;
+	box-shadow: 3px 3px 15px 1px #CCC;
 }
 
 .about_huodong {
