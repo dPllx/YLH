@@ -392,13 +392,13 @@ header nav ul {
 }
 
 .footer--intro {
-	background-image: url(../imgs/t_icon3.jpg);
+	background-image: url(../imgs/t_icon4.jpg);
 	background-position-y: 0
 }
 
 .footer--tel {
 	background-position-y: 0;
-	background-image: url(../imgs/t_icon4.jpg)
+	background-image: url(../imgs/t_icon3.jpg)
 }
 
 .cl {
