@@ -120,6 +120,19 @@
 	margin-right: 16px;
 }
 
+.youshi_desc_right-00 ul li {
+	display: inline-block;
+	padding: 8px 18px;
+	background: #db9946;
+	font-size: 20px;
+	color: #FBFBFD;
+	border-radius: 16px;
+	line-height: 20px;
+	margin-right: 16px;
+}
+
+
+
 
 .p {
 	width: 100%;

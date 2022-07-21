@@ -30,7 +30,9 @@ img {border: 0;display:block;max-width:100%;}
 }
 .cursor-amc a{ 
 cursor: default}
- 
+.cursor-amc{
+	cursor: default
+}
  
  
  
